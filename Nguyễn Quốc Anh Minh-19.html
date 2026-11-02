@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<style>
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+	.navbar-top {
+		position: absolute;
+		padding: 10px;
+		background-color: #011C26;
+		width: 100%;
+		height: 60px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		z-index: 100000;
+	}
+	.navbar-logo .logo {
+		height: 50px;
+		display: flex;
+		align-items: center;
+		margin-right: auto;
+		padding-right: 20px
+	}
+	.navbar-links-top {
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+	}
+	.navbar-links-top a {
+		color: white;
+		cursor: pointer;
+		text-decoration: none;
+		margin-left: 10px;
+		margin-right: 10px;
+		font-family: "Verdana";
+		font-size: 20px;
+		transition: background 1s ease-in-out; /* Hiệu ứng chuyển đổi màu */
+	}
+	.navbar-links-top a:hover {
+		background: linear-gradient(to right, #ff7eb3, #ff758c, #ffb199);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		background-clip: text;
+		text-fill-color: transparent;
+	}
+	.full-width-image {
+		width: 100%;
+		object-fit: cover;
+		object-position: center 20%;
+		height: auto;
+		position: relative;
+		padding-top: 60;
+	}
+	.blog-img{
+		width: 95%;
+		height: auto;
+	}
+	.bookman{
+		font-family: 'Bookman';
+		font-size: 20px;
+	}
+	h2{
+		text-indent: 25px;
+		font-family: 'Bookman';
+	}
+	p{
+		text-indent: 50px;
+	}
+	body {
+		background: radial-gradient(circle, rgba(85, 80, 242, 0.5), rgba(160, 187, 242, 0.4), rgba(5, 131, 242, 0.3), rgba(5, 199, 242, 0.2), rgba(5, 219, 242, 0.1)),
+		linear-gradient(to bottom right, #A2CDD3, #BCB9D8, #E5C1C5, #D6EDF5),
+		linear-gradient(to left, #FCD1F5, #A0BBF2, #EFBBF0, #B795E4, #97A5EE);
+	}
+	.container-wrapper {
+		background-color: #ffffff;
+		max-width: 45%;
+		margin: 0 auto;
+		padding: 20px;
+		position: relative;
+		z-index: 1;
+	}
+	</style>
+	</head>
+	<body>
+		<header class="navbar-top" id="navbartop">
+		<div class="navbar-logo">
+			<img src="Dalater.png" class="logo">
+		</div>
+		<div class="navbar-links-top">
+			<b><a href="https://thanhnien.vn/da-lat-tags497053.html">Tin tức</a></b>
+			<b><a href="https://www.booking.com/city/vn/dalat.en.html?aid=306395;label=dalat-ecNEvFTAjDZL93kJQO5SKAS392865645526:pl:ta:p1340:p2:ac:ap:neg:fi:tikwd-14946209220:lp9198627:li:dec:dm:ppccp=UmFuZG9tSVYkc2RlIyh9YZVcNNsENnH02-pWD53qm9c;ws=&gad_source=1&gclid=Cj0KCQiAy8K8BhCZARIsAKJ8sfTv3rfXijFhJL6gg4-3jSs5nfdGNwkIgLZ7cIu1_iYYfwSFJmljd0QaAh69EALw_wcB">Khách sạn</a></b>
+			<b><a href="https://futabus.vn/">Đặt xe</a></b>
+		</div>
+		</header>
+		<img class="full-width-image" src="Thunglungtinhyeu.jpg">
+		<div class="container-wrapper" style="margin-top:-4px;">
+		<h2 style="margin-top: 20px;">Giới thiệu chung</h2>
+		<p class="bookman">Thung lũng Tình Yêu là một trong những địa danh nổi tiếng và được yêu thích nhất tại thành phố Đà Lạt, tỉnh Lâm Đồng. Nằm cách trung tâm thành phố khoảng 5 km về phía Đông Bắc, nơi đây không chỉ thu hút bởi vẻ đẹp thơ mộng, lãng mạn mà còn bởi lịch sử lâu đời và những câu chuyện tình yêu ngọt ngào gắn liền với địa danh này. Với không khí trong lành, khung cảnh nên thơ và nhiều hoạt động hấp dẫn, Thung lũng Tình Yêu là điểm dừng chân lý tưởng cho cả những cặp đôi và du khách yêu thiên nhiên.</p>
+		<center><img src="Thunglungtinhyeu1.jpg" class="blog-img"></center>
+		<h2>Vị trí địa lý và lịch sử hình thành</h2>
+		<p class="bookman">Thung lũng Tình Yêu nằm trên đường Mai Anh Đào, phường 8, thành phố Đà Lạt, bao quanh bởi những dãy đồi thông xanh bạt ngàn và những con suối nhỏ róc rách. Địa danh này được người Pháp phát hiện và đưa vào khai thác từ những năm đầu thế kỷ 20, với tên gọi "Vallée d’Amour," nghĩa là "Thung lũng Tình Yêu" trong tiếng Pháp. Cái tên này phản ánh vẻ đẹp thơ mộng, quyến rũ của cảnh quan nơi đây.</p>
+		<center><img src="Thunglungtinhyeu2.jpg" class="blog-img"></center>
+		<p class="bookman">Vào năm 1953, cái tên "Thung lũng Tình Yêu" chính thức được đặt bởi vua Bảo Đại – vị hoàng đế cuối cùng của triều đại phong kiến Việt Nam. Từ đó, nơi đây trở thành điểm hẹn hò, gắn kết tình cảm của không chỉ các đôi lứa yêu nhau mà còn là biểu tượng lãng mạn đặc trưng của Đà Lạt.</p>
+		<h2>Khung cảnh thiên nhiên thơ mộng</h2>
+		<p class="bookman">Thung lũng Tình Yêu nổi bật với không gian thiên nhiên đẹp như tranh vẽ. Nằm lọt thỏm giữa những dãy đồi trập trùng và rừng thông xanh rì, nơi đây mang đến một không gian yên bình, trong lành và thoáng đãng. Bên trong thung lũng là hồ Đa Thiện – một hồ nước nhân tạo được bao quanh bởi những con đường lát đá, cầu gỗ, và các bãi cỏ xanh mướt.</p>
+		<center><img src="Thunglungtinhyeu3.jpg" class="blog-img"></center>
+		<p class="bookman">Những thảm hoa tươi tắn với đủ loại màu sắc được chăm chút kỹ lưỡng quanh năm, tạo nên một bức tranh thiên nhiên đầy sống động. Mỗi mùa, Thung lũng Tình Yêu lại mang một vẻ đẹp riêng biệt: từ sắc hoa anh đào ngọt ngào vào mùa xuân, đến sắc vàng rực rỡ của hoa dã quỳ vào mùa thu. Tất cả hòa quyện với không gian mát mẻ, sương mù bảng lảng của cao nguyên Đà Lạt, tạo nên một vẻ đẹp vừa lãng mạn vừa kỳ ảo.</p>
+		</div>
+	</body>
+</html>

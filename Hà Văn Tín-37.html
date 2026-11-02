@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<style>
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+	.navbar-top {
+		position: absolute;
+		padding: 10px;
+		background-color: #011C26;
+		width: 100%;
+		height: 60px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		z-index: 100000;
+	}
+	.navbar-logo .logo {
+		height: 50px;
+		display: flex;
+		align-items: center;
+		margin-right: auto;
+		padding-right: 20px
+	}
+	.navbar-links-top {
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+	}
+	.navbar-links-top a {
+		color: white;
+		cursor: pointer;
+		text-decoration: none;
+		margin-left: 10px;
+		margin-right: 10px;
+		font-family: "Verdana";
+		font-size: 20px;
+		transition: background 1s ease-in-out; /* Hiệu ứng chuyển đổi màu */
+	}
+	.navbar-links-top a:hover {
+		background: linear-gradient(to right, #ff7eb3, #ff758c, #ffb199);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		background-clip: text;
+		text-fill-color: transparent;
+	}
+	.full-width-image {
+		width: 100%;
+		object-fit: cover;
+		object-position: center 20%;
+		height: auto;
+		position: relative;
+		padding-top: 60;
+	}
+	.blog-img{
+		width: 95%;
+		height: auto;
+	}
+	.bookman{
+		font-family: 'Bookman';
+		font-size: 20px;
+	}
+	h2{
+		text-indent: 25px;
+		font-family: 'Bookman';
+	}
+	p{
+		text-indent: 50px;
+	}
+	body {
+		background: radial-gradient(circle, rgba(85, 80, 242, 0.5), rgba(160, 187, 242, 0.4), rgba(5, 131, 242, 0.3), rgba(5, 199, 242, 0.2), rgba(5, 219, 242, 0.1)),
+		linear-gradient(to bottom right, #A2CDD3, #BCB9D8, #E5C1C5, #D6EDF5),
+		linear-gradient(to left, #FCD1F5, #A0BBF2, #EFBBF0, #B795E4, #97A5EE);
+	}
+	.container-wrapper {
+		background-color: #ffffff;
+		max-width: 45%;
+		margin: 0 auto;
+		padding: 20px;
+		position: relative;
+		z-index: 1;
+	}
+	</style>
+	</head>
+	<body>
+		<header class="navbar-top" id="navbartop">
+		<div class="navbar-logo">
+			<img src="Dalater.png" class="logo">
+		</div>
+		<div class="navbar-links-top">
+			<b><a href="https://thanhnien.vn/da-lat-tags497053.html">Tin tức</a></b>
+			<b><a href="https://www.booking.com/city/vn/dalat.en.html?aid=306395;label=dalat-ecNEvFTAjDZL93kJQO5SKAS392865645526:pl:ta:p1340:p2:ac:ap:neg:fi:tikwd-14946209220:lp9198627:li:dec:dm:ppccp=UmFuZG9tSVYkc2RlIyh9YZVcNNsENnH02-pWD53qm9c;ws=&gad_source=1&gclid=Cj0KCQiAy8K8BhCZARIsAKJ8sfTv3rfXijFhJL6gg4-3jSs5nfdGNwkIgLZ7cIu1_iYYfwSFJmljd0QaAh69EALw_wcB">Khách sạn</a></b>
+			<b><a href="https://futabus.vn/">Đặt xe</a></b>
+		</div>
+		</header>
+		<img class="full-width-image" src="Doithonghaimo.jpg">
+		<div class="container-wrapper" style="margin-top:-4px;">
+		<h2 style="margin-top: 20px;">Giới thiệu chung</h2>
+		<p class="bookman">Đồi Thông Hai Mộ, một địa danh nổi tiếng nằm giữa lòng thành phố ngàn hoa Đà Lạt, không chỉ thu hút du khách bởi vẻ đẹp nên thơ của những đồi thông xanh bạt ngàn mà còn bởi câu chuyện tình yêu bi thương và đầy cảm động gắn liền với nó. Nơi đây đã trở thành biểu tượng cho tình yêu bất diệt, là điểm đến đầy ý nghĩa cho những ai muốn tìm về với sự lắng đọng và chiêm nghiệm.</p>
+		<center><img src="Doithonghaimo1.jpg" class="blog-img"></center>
+		<h2>Vị trí và khung cảnh thiên nhiên</h2>
+		<p class="bookman">Đồi Thông Hai Mộ nằm cạnh hồ Than Thở – một trong những hồ nước nổi tiếng của Đà Lạt. Địa danh này cách trung tâm thành phố khoảng 6 km về phía Đông Bắc, tọa lạc trên con đường Hồ Xuân Hương, thuộc phường 12, thành phố Đà Lạt.</p>
+		<center><img src="Doithonghaimo2.jpg" class="blog-img"></center>
+		<p class="bookman">Khung cảnh nơi đây mang đậm nét thơ mộng và trầm mặc. Bao quanh đồi là những rừng thông xanh ngút ngàn, trải dài bất tận. Vào buổi sáng sớm, sương mù phủ khắp khu vực, kết hợp với những tia nắng len lỏi qua tán lá, tạo nên khung cảnh mơ màng đầy huyền bí. Không gian yên tĩnh, tiếng thông reo vi vu hòa quyện cùng tiếng gió khiến nơi đây trở thành chốn dừng chân lý tưởng cho những tâm hồn muốn tạm xa lánh sự ồn ào của cuộc sống.</p>
+		<h2>Câu chuyện tình yêu bi thương gắn liền với địa danh</h2>
+		<p class="bookman">Tên gọi "Đồi Thông Hai Mộ" bắt nguồn từ câu chuyện tình yêu đầy cảm động của hai người trẻ, Lê Thị Thảo và Vũ Minh Tâm. Theo truyền thuyết địa phương, Thảo và Tâm yêu nhau say đắm, nhưng mối tình của họ lại bị gia đình ngăn cản vì sự chênh lệch về gia cảnh.</p>
+		<center><img src="Doithonghaimo3.jpg" class="blog-img"></center>
+		<p class="bookman">Minh Tâm là con trai của một gia đình giàu có và quyền lực tại Sài Gòn, trong khi Thảo là một cô gái bình dân, sống cuộc sống giản dị tại Đà Lạt. Dù tình yêu sâu đậm, họ không thể vượt qua áp lực gia đình. Minh Tâm buộc phải quay về Sài Gòn và kết hôn với một người khác theo ý gia đình. Trong lúc tuyệt vọng, Thảo đã tìm đến cái chết bên bờ hồ Than Thở – nơi chứng kiến những kỷ niệm đẹp đẽ của họ. Hay tin người yêu qua đời, Minh Tâm đau đớn tột cùng và cũng kết liễu cuộc đời mình để được bên Thảo mãi mãi.</p>
+		<p class="bookman">Gia đình Minh Tâm đã đưa thi hài của ông lên Đà Lạt và an táng cạnh mộ của Thảo, để họ có thể bên nhau trong thế giới vĩnh hằng. Hai ngôi mộ được đặt song song, giữa rừng thông xanh mướt, tạo nên một khung cảnh buồn nhưng lãng mạn. Chính từ câu chuyện này, địa danh "Đồi Thông Hai Mộ" ra đời, trở thành biểu tượng của tình yêu bất diệt.</p>
+		</div>
+	</body>
+</html>
