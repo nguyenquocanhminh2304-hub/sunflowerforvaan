@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<style>
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+	.navbar-top {
+		position: absolute;
+		padding: 10px;
+		background-color: #011C26;
+		width: 100%;
+		height: 60px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		z-index: 100000;
+	}
+	.navbar-logo .logo {
+		height: 50px;
+		display: flex;
+		align-items: center;
+		margin-right: auto;
+		padding-right: 20px
+	}
+	.navbar-links-top {
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+	}
+	.navbar-links-top a {
+		color: white;
+		cursor: pointer;
+		text-decoration: none;
+		margin-left: 10px;
+		margin-right: 10px;
+		font-family: "Verdana";
+		font-size: 20px;
+		transition: background 1s ease-in-out; /* Hiệu ứng chuyển đổi màu */
+	}
+	.navbar-links-top a:hover {
+		background: linear-gradient(to right, #ff7eb3, #ff758c, #ffb199);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		background-clip: text;
+		text-fill-color: transparent;
+	}
+	.full-width-image {
+		width: 100%;
+		object-fit: cover;
+		object-position: center 20%;
+		height: auto;
+		position: relative;
+		padding-top: 60;
+	}
+	.blog-img{
+		width: 95%;
+		height: auto;
+	}
+	.bookman{
+		font-family: 'Bookman';
+		font-size: 20px;
+	}
+	h2{
+		text-indent: 25px;
+		font-family: 'Bookman';
+	}
+	p{
+		text-indent: 50px;
+	}
+	body {
+		background: radial-gradient(circle, rgba(85, 80, 242, 0.5), rgba(160, 187, 242, 0.4), rgba(5, 131, 242, 0.3), rgba(5, 199, 242, 0.2), rgba(5, 219, 242, 0.1)),
+		linear-gradient(to bottom right, #A2CDD3, #BCB9D8, #E5C1C5, #D6EDF5),
+		linear-gradient(to left, #FCD1F5, #A0BBF2, #EFBBF0, #B795E4, #97A5EE);
+	}
+	.container-wrapper {
+		background-color: #ffffff;
+		max-width: 45%;
+		margin: 0 auto;
+		padding: 20px;
+		position: relative;
+		z-index: 1;
+	}
+	</style>
+	</head>
+	<body>
+		<header class="navbar-top" id="navbartop">
+		<div class="navbar-logo">
+			<img src="Dalater.png" class="logo">
+		</div>
+		<div class="navbar-links-top">
+			<b><a href="https://thanhnien.vn/da-lat-tags497053.html">Tin tức</a></b>
+			<b><a href="https://www.booking.com/city/vn/dalat.en.html?aid=306395;label=dalat-ecNEvFTAjDZL93kJQO5SKAS392865645526:pl:ta:p1340:p2:ac:ap:neg:fi:tikwd-14946209220:lp9198627:li:dec:dm:ppccp=UmFuZG9tSVYkc2RlIyh9YZVcNNsENnH02-pWD53qm9c;ws=&gad_source=1&gclid=Cj0KCQiAy8K8BhCZARIsAKJ8sfTv3rfXijFhJL6gg4-3jSs5nfdGNwkIgLZ7cIu1_iYYfwSFJmljd0QaAh69EALw_wcB">Khách sạn</a></b>
+			<b><a href="https://futabus.vn/">Đặt xe</a></b>
+		</div>
+		</header>
+		<img class="full-width-image" src="Hotuyenlam.jpg">
+		<div class="container-wrapper" style="margin-top:-4px;">
+		<h2 style="margin-top: 20px;">Giới thiệu chung</h2>
+		<p class="bookman">Hồ Tuyền Lâm là một trong những danh thắng nổi tiếng và quyến rũ nhất tại thành phố Đà Lạt, tỉnh Lâm Đồng. Nằm cách trung tâm thành phố khoảng 6 km về phía Nam, hồ được biết đến không chỉ bởi vẻ đẹp thiên nhiên hùng vĩ mà còn vì không khí trong lành, yên bình, lý tưởng cho những ai tìm kiếm một nơi thư giãn giữa cảnh sắc núi rừng tuyệt vời của cao nguyên Lâm Viên.</p>
+		<center><img src="Hotuyenlam1.jpg" class="blog-img"></center>
+		<h2>Hình thành và vị trí địa lý</h2>
+		<p class="bookman">Hồ Tuyền Lâm có diện tích khoảng 350 ha và được hình thành từ con suối Tía chảy qua dãy núi Voi. Hồ nằm ở độ cao 1.500 m so với mực nước biển, bao quanh bởi những cánh rừng thông bạt ngàn, tạo nên một không gian yên tĩnh và mát mẻ quanh năm. Chính vị trí này đã giúp Tuyền Lâm trở thành một trong những hồ nước ngọt lớn nhất và đẹp nhất của Đà Lạt, góp phần tạo nên cảnh quan thiên nhiên thơ mộng và ấn tượng.</p>
+		<center><img src="Hotuyenlam2.png" class="blog-img"></center>
+		<h2>Các hoạt động du lịch tại Hồ Tuyền Lâm</h2>
+		<p class="bookman">Hồ Tuyền Lâm không chỉ là nơi để chiêm ngưỡng cảnh đẹp mà còn là điểm đến tuyệt vời cho các hoạt động du lịch, thể thao và giải trí. Một trong những hoạt động phổ biến nhất là du ngoạn trên hồ bằng thuyền, du khách có thể thuê thuyền pedal để chèo ra giữa hồ, tận hưởng không khí trong lành và ngắm nhìn toàn cảnh xung quanh.</p>
+		<center><img src="Hotuyenlam3.jpg" class="blog-img"></center>
+		<p class="bookman">Đặc biệt, trong khu vực xung quanh hồ, du khách còn có thể tham gia các hoạt động như cắm trại, dã ngoại, câu cá hoặc đi bộ tham quan các tuyến đường rừng. Những con đường quanh hồ được lát đá sạch sẽ, tạo điều kiện thuận lợi cho việc dạo bộ và ngắm cảnh. Tại đây, du khách cũng có thể tham gia các hoạt động ngoài trời như leo núi, khám phá các khu vực quanh hồ hoặc đơn giản là tận hưởng một ngày thư giãn với bạn bè và gia đình.</p>
+		</div>
+	</body>
+</html>

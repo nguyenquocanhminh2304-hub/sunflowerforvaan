@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<style>
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+	.navbar-top {
+		position: absolute;
+		padding: 10px;
+		background-color: #011C26;
+		width: 100%;
+		height: 60px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		z-index: 100000;
+	}
+	.navbar-logo .logo {
+		height: 50px;
+		display: flex;
+		align-items: center;
+		margin-right: auto;
+		padding-right: 20px
+	}
+	.navbar-links-top {
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+	}
+	.navbar-links-top a {
+		color: white;
+		cursor: pointer;
+		text-decoration: none;
+		margin-left: 10px;
+		margin-right: 10px;
+		font-family: "Verdana";
+		font-size: 20px;
+		transition: background 1s ease-in-out; /* Hiệu ứng chuyển đổi màu */
+	}
+	.navbar-links-top a:hover {
+		background: linear-gradient(to right, #ff7eb3, #ff758c, #ffb199);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		background-clip: text;
+		text-fill-color: transparent;
+	}
+	.full-width-image {
+		width: 100%;
+		object-fit: cover;
+		object-position: center 20%;
+		height: auto;
+		position: relative;
+		padding-top: 60;
+	}
+	.blog-img{
+		width: 95%;
+		height: auto;
+	}
+	.bookman{
+		font-family: 'Bookman';
+		font-size: 20px;
+	}
+	h2{
+		text-indent: 25px;
+		font-family: 'Bookman';
+	}
+	p{
+		text-indent: 50px;
+	}
+	body {
+		background: radial-gradient(circle, rgba(85, 80, 242, 0.5), rgba(160, 187, 242, 0.4), rgba(5, 131, 242, 0.3), rgba(5, 199, 242, 0.2), rgba(5, 219, 242, 0.1)),
+		linear-gradient(to bottom right, #A2CDD3, #BCB9D8, #E5C1C5, #D6EDF5),
+		linear-gradient(to left, #FCD1F5, #A0BBF2, #EFBBF0, #B795E4, #97A5EE);
+	}
+	.container-wrapper {
+		background-color: #ffffff;
+		max-width: 45%;
+		margin: 0 auto;
+		padding: 20px;
+		position: relative;
+		z-index: 1;
+	}
+	</style>
+	</head>
+	<body>
+		<header class="navbar-top" id="navbartop">
+		<div class="navbar-logo">
+			<img src="Dalater.png" class="logo">
+		</div>
+		<div class="navbar-links-top">
+			<b><a href="https://thanhnien.vn/da-lat-tags497053.html">Tin tức</a></b>
+			<b><a href="https://www.booking.com/city/vn/dalat.en.html?aid=306395;label=dalat-ecNEvFTAjDZL93kJQO5SKAS392865645526:pl:ta:p1340:p2:ac:ap:neg:fi:tikwd-14946209220:lp9198627:li:dec:dm:ppccp=UmFuZG9tSVYkc2RlIyh9YZVcNNsENnH02-pWD53qm9c;ws=&gad_source=1&gclid=Cj0KCQiAy8K8BhCZARIsAKJ8sfTv3rfXijFhJL6gg4-3jSs5nfdGNwkIgLZ7cIu1_iYYfwSFJmljd0QaAh69EALw_wcB">Khách sạn</a></b>
+			<b><a href="https://futabus.vn/">Đặt xe</a></b>
+		</div>
+		</header>
+		<img class="full-width-image" src="Langcodalat.jpg">
+		<div class="container-wrapper" style="margin-top:-4px;">
+		<h2 style="margin-top: 20px;">Giới thiệu chung</h2>
+		<p class="bookman">Làng cổ Đà Lạt, một địa danh không chỉ mang giá trị lịch sử mà còn chứa đựng những nét văn hóa đặc trưng của vùng đất cao nguyên Lâm Đồng, đã trở thành một điểm đến hấp dẫn đối với những ai yêu mến vẻ đẹp mộc mạc, yên bình. Đây là nơi hội tụ những ngôi nhà cổ, những con đường nhỏ uốn lượn, và những câu chuyện kể đầy sức sống của người dân địa phương.</p>
+		<center><img src="Langcodalat1.jpg" class="blog-img"></center>
+		<h2>Vị trí và khung cảnh đặc trưng</h2>
+		<p class="bookman">Làng cổ Đà Lạt nằm cách trung tâm thành phố khoảng 15 km, tọa lạc giữa khung cảnh thiên nhiên yên bình với những ngọn đồi thoai thoải, cánh rừng thông bạt ngàn và dòng suối trong lành chảy qua. Địa danh này được xây dựng để tái hiện hình ảnh một ngôi làng truyền thống Việt Nam, kết hợp hài hòa giữa kiến trúc cổ kính và cảnh sắc thiên nhiên thơ mộng của Đà Lạt.</p>
+		<center><img src="Langcodalat2.jpg" class="blog-img"></center>
+		<p class="bookman">Không gian nơi đây mang nét thanh tịnh, khác xa sự náo nhiệt của thành phố. Bước vào làng cổ, du khách sẽ ngay lập tức cảm nhận được không khí trong lành, thoảng qua hương thơm dịu nhẹ của thông, cỏ cây và hoa lá. Những ngôi nhà gỗ cổ kính, mái ngói rêu phong, cùng những hàng cây xanh rợp bóng, tạo nên một bức tranh làng quê Việt Nam giản dị nhưng đầy sức hút.</p>
+		<h2>Lịch sử hình thành và giá trị văn hóa</h2>
+		<p class="bookman">Làng cổ Đà Lạt được xây dựng với mục đích lưu giữ và bảo tồn nét văn hóa truyền thống của Việt Nam. Địa danh này không chỉ là nơi để du khách tham quan mà còn là một bảo tàng sống động về đời sống, kiến trúc và phong tục tập quán của người dân Đà Lạt xưa.</p>
+		<center><img src="Langcodalat3.jpeg" class="blog-img"></center>
+		<p class="bookman">Mỗi ngôi nhà trong làng đều được tái hiện dựa trên những kiến trúc đặc trưng của các vùng miền khác nhau, như nhà rường Huế, nhà sàn Tây Nguyên hay nhà ba gian Bắc Bộ. Những ngôi nhà không chỉ mang giá trị thẩm mỹ mà còn kể lại câu chuyện về lịch sử, văn hóa của từng vùng đất. Ngoài ra, các vật dụng sinh hoạt hàng ngày như cối xay lúa, chum nước, bàn ghế cổ, đều được bảo tồn và trưng bày trong từng ngôi nhà, giúp du khách hình dung rõ hơn về cuộc sống thường nhật của người Việt Nam xưa.</p>
+		</div>
+	</body>
+</html>
